@@ -1,0 +1,23 @@
+c:\users\alfredo\documents\visual studio 2013\Projects\Horarios\Horarios\bin\Debug\Horarios.exe.config
+c:\users\alfredo\documents\visual studio 2013\Projects\Horarios\Horarios\bin\Debug\Horarios.exe
+c:\users\alfredo\documents\visual studio 2013\Projects\Horarios\Horarios\bin\Debug\Horarios.pdb
+c:\users\alfredo\documents\visual studio 2013\Projects\Horarios\Horarios\bin\Debug\Horarios.xml
+c:\users\alfredo\documents\visual studio 2013\Projects\Horarios\Horarios\obj\Debug\Horarios.Resources.resources
+c:\users\alfredo\documents\visual studio 2013\Projects\Horarios\Horarios\obj\Debug\Horarios.vbproj.GenerateResource.Cache
+c:\users\alfredo\documents\visual studio 2013\Projects\Horarios\Horarios\obj\Debug\Horarios.exe
+c:\users\alfredo\documents\visual studio 2013\Projects\Horarios\Horarios\obj\Debug\Horarios.xml
+c:\users\alfredo\documents\visual studio 2013\Projects\Horarios\Horarios\obj\Debug\Horarios.pdb
+C:\Users\Alfredo\Documents\Visual Studio 2013\Projects\Horarios\Horarios\obj\Debug\Horarios.ImportH.resources
+C:\Users\Alfredo\Documents\Visual Studio 2013\Projects\Horarios\Horarios\obj\Debug\Horarios.vbprojResolveAssemblyReference.cache
+C:\Users\Sistemas3\Desktop\Horarios\Horarios\bin\Debug\Horarios.exe.config
+C:\Users\Sistemas3\Desktop\Horarios\Horarios\obj\Debug\Horarios.exe
+C:\Users\Sistemas3\Desktop\Horarios\Horarios\obj\Debug\Horarios.xml
+C:\Users\Sistemas3\Desktop\Horarios\Horarios\obj\Debug\Horarios.pdb
+C:\Users\Sistemas3\Desktop\Horarios\Horarios\bin\Debug\Horarios.exe
+C:\Users\Sistemas3\Desktop\Horarios\Horarios\bin\Debug\Horarios.pdb
+C:\Users\Sistemas3\Desktop\Horarios\Horarios\bin\Debug\Horarios.xml
+C:\Users\Sistemas3\Desktop\Horarios\Horarios\obj\Debug\Horarios.vbprojResolveAssemblyReference.cache
+C:\Users\Sistemas3\Desktop\Horarios\Horarios\obj\Debug\Horarios.ImportH.resources
+C:\Users\Sistemas3\Desktop\Horarios\Horarios\obj\Debug\Horarios.Resources.resources
+C:\Users\Sistemas3\Desktop\Horarios\Horarios\obj\Debug\Horarios.vbproj.GenerateResource.Cache
+C:\Users\Sistemas3\Desktop\Horarios\Horarios\obj\Debug\Horarios.Importacion.resources

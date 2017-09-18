@@ -1,0 +1,896 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Horarios
+</name>
+</assembly>
+<members>
+<member name="T:Horarios.My.Resources.Resources">
+<summary>
+  Clase de recurso fuertemente tipado, para buscar cadenas traducidas, etc.
+</summary>
+</member>
+<member name="P:Horarios.My.Resources.Resources.ResourceManager">
+<summary>
+  Devuelve la instancia de ResourceManager almacenada en caché utilizada por esta clase.
+</summary>
+</member>
+<member name="P:Horarios.My.Resources.Resources.Culture">
+<summary>
+  Reemplaza la propiedad CurrentUICulture del subproceso actual para todas las
+  búsquedas de recursos mediante esta clase de recurso fuertemente tipado.
+</summary>
+</member>
+<member name="P:Horarios.My.Resources.Resources.Logo_SSL">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSet.ACGroupDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSet.acholidayDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSet.ACTimeZonesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSet.ACUnlockCombDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSet.AlarmLogDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSet.AttParamDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSet.AuditedExcDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSet.AUTHDEVICEDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSet.CHECKEXACTDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSet.CHECKINOUTDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSet.DEPARTMENTSDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSet.DeptUsedSchsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSet.EmOpLogDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSet.EXCNOTESDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSet.FaceTempDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSet.HOLIDAYSDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSet.LeaveClassDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSet.LeaveClass1DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSet.MachinesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSet.NUM_RUNDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSet.NUM_RUN_DEILDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSet.ReportItemDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSet.SchClassDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSet.SECURITYDETAILSDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSet.ServerLogDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSet.SHIFTDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSet.SystemLogDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSet.TBKEYDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSet.TBSMSALLOTDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSet.TBSMSINFODataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSet.TEMPLATEDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSet.USER_OF_RUNDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSet.USER_SPEDAYDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSet.USER_TEMP_SCHDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSet.UserACMachinesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSet.UserACPrivilegeDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSet.USERINFODataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSet.UsersMachinesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSet.UserUpdatesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSet.UserUsedSClassesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSet.ZKAttendanceMonthStatisticsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSet.ACGroupRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSet.acholidayRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSet.ACTimeZonesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSet.ACUnlockCombRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSet.AlarmLogRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSet.AttParamRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSet.AuditedExcRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSet.AUTHDEVICERow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSet.CHECKEXACTRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSet.CHECKINOUTRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSet.DEPARTMENTSRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSet.DeptUsedSchsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSet.EmOpLogRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSet.EXCNOTESRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSet.FaceTempRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSet.HOLIDAYSRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSet.LeaveClassRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSet.LeaveClass1Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSet.MachinesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSet.NUM_RUNRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSet.NUM_RUN_DEILRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSet.ReportItemRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSet.SchClassRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSet.SECURITYDETAILSRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSet.ServerLogRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSet.SHIFTRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSet.SystemLogRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSet.TBKEYRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSet.TBSMSALLOTRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSet.TBSMSINFORow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSet.TEMPLATERow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSet.USER_OF_RUNRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSet.USER_SPEDAYRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSet.USER_TEMP_SCHRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSet.UserACMachinesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSet.UserACPrivilegeRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSet.USERINFORow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSet.UsersMachinesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSet.UserUpdatesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSet.UserUsedSClassesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSet.ZKAttendanceMonthStatisticsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSet.ACGroupRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSet.acholidayRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSet.ACTimeZonesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSet.ACUnlockCombRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSet.AlarmLogRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSet.AttParamRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSet.AuditedExcRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSet.AUTHDEVICERowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSet.CHECKEXACTRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSet.CHECKINOUTRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSet.DEPARTMENTSRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSet.DeptUsedSchsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSet.EmOpLogRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSet.EXCNOTESRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSet.FaceTempRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSet.HOLIDAYSRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSet.LeaveClassRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSet.LeaveClass1RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSet.MachinesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSet.NUM_RUNRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSet.NUM_RUN_DEILRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSet.ReportItemRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSet.SchClassRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSet.SECURITYDETAILSRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSet.ServerLogRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSet.SHIFTRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSet.SystemLogRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSet.TBKEYRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSet.TBSMSALLOTRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSet.TBSMSINFORowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSet.TEMPLATERowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSet.USER_OF_RUNRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSet.USER_SPEDAYRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSet.USER_TEMP_SCHRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSet.UserACMachinesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSet.UserACPrivilegeRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSet.USERINFORowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSet.UsersMachinesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSet.UserUpdatesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSet.UserUsedSClassesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSet.ZKAttendanceMonthStatisticsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSetTableAdapters.ACGroupTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSetTableAdapters.acholidayTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSetTableAdapters.ACTimeZonesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSetTableAdapters.ACUnlockCombTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSetTableAdapters.AlarmLogTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSetTableAdapters.AttParamTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSetTableAdapters.AuditedExcTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSetTableAdapters.AUTHDEVICETableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSetTableAdapters.CHECKEXACTTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSetTableAdapters.CHECKINOUTTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSetTableAdapters.DEPARTMENTSTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSetTableAdapters.DeptUsedSchsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSetTableAdapters.EmOpLogTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSetTableAdapters.EXCNOTESTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSetTableAdapters.FaceTempTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSetTableAdapters.HOLIDAYSTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSetTableAdapters.LeaveClassTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSetTableAdapters.LeaveClass1TableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSetTableAdapters.MachinesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSetTableAdapters.NUM_RUNTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSetTableAdapters.NUM_RUN_DEILTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSetTableAdapters.ReportItemTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSetTableAdapters.SchClassTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSetTableAdapters.SECURITYDETAILSTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSetTableAdapters.ServerLogTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSetTableAdapters.SHIFTTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSetTableAdapters.SystemLogTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSetTableAdapters.TBKEYTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSetTableAdapters.TBSMSALLOTTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSetTableAdapters.TBSMSINFOTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSetTableAdapters.TEMPLATETableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSetTableAdapters.USER_OF_RUNTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSetTableAdapters.USER_SPEDAYTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSetTableAdapters.USER_TEMP_SCHTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSetTableAdapters.UserACMachinesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSetTableAdapters.UserACPrivilegeTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSetTableAdapters.USERINFOTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSetTableAdapters.UsersMachinesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSetTableAdapters.UserUpdatesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSetTableAdapters.UserUsedSClassesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSetTableAdapters.ZKAttendanceMonthStatisticsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Horarios.att2000DataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Horarios.att2000DataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Horarios.att2000DataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Horarios.att2000DataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Horarios.att2000DataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Horarios.att2000DataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Horarios.att2000DataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Horarios.att2000DataSetTableAdapters.TableAdapterManager.UpdateAll(Horarios.att2000DataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Horarios.att2000DataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>
