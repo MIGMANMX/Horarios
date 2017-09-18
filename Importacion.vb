@@ -130,20 +130,27 @@ Public Class Importacion
                     'Variable de tipo de chequeo
                     CHECKTYPE = check("CHECKTYPE").ToString
 
+
+
                     dbC2.Open()
                     'Comparando si es la misma fecha al anterior
-                    ' cmdS2.CommandText = "select top (1) * from View_1 where chec = '" & Format(CDate(CHECKTIME), "yyyy-MM-ddThh:mm:ss") & "'"
+                    cmdS2.CommandText = "select top (1) * from View_1 where chec = '" & Format(CDate(CHECKTIME), "yyyy-dd-MMThh:mm:ss") & "'"
                     'rdr2 = cmdS2.ExecuteReader
-                    Dim rdr2 As SqlDataReader
+                    Dim rdr2 As SqlDataReader = cmdS2.ExecuteReader
+                    'Ciclo de lectura de claves
+                    If rdr2.HasRows Then
+                        'Dim idchek As Integer
+                        'idchek = rdr2("idchequeo").ToString()
+                        rdr2.Close()
 
+                    Else
+                        rdr2.Close()
 
-
-                    Select Case CHECKTYPE
+                        Select Case CHECKTYPE
                             'INSERTAR REGISTROS
                             Case "I"
-                            cmdS2.CommandText = "INSERT INTO Chequeo (idempleado,chec,tipo)" &
-                                                    "values('" & id & "','" & Format(CDate(CHECKTIME), "yyyy-MM-ddThh:mm:ss") & "',1)"
-                            cmdS2.ExecuteNonQuery()
+                                cmdS2.CommandText = "INSERT INTO Chequeo (idempleado,chec,tipo) values('" & id & "','" & Format(CDate(CHECKTIME), "yyyy-MM-ddThh:mm:ss") & "',1)"
+                                cmdS2.ExecuteNonQuery()
                                 rdr2 = cmdS2.ExecuteReader
 
                             Case "0"
@@ -162,6 +169,8 @@ Public Class Importacion
                                 rdr2 = cmdS2.ExecuteReader
 
                         End Select
+
+                    End If
 
 
 
