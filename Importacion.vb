@@ -80,10 +80,13 @@ Public Class Importacion
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Iniciar.Click
         Etiqueta.Text = "Conectando la base de datos"
         Importacion()
+
     End Sub
     Public Sub Importacion()
         'Conexion con SQL
+        Iniciar.Enabled = False
         ProgressBar1.Value = 45
+
         Dim dbC As New SqlConnection(connStrdbo)
 
         Dim cmdS As New SqlCommand("", dbC)
