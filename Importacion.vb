@@ -127,54 +127,30 @@ Public Class Importacion
                 While check.Read()
                     'Variable de fecha
                     CHECKTIME = check("CHECKTIME").ToString
+
                     'Variable de tipo de chequeo
                     CHECKTYPE = check("CHECKTYPE").ToString
-
-
+                    Dim Tipo As Integer
+                    Select Case CHECKTYPE
+                        Case "I"
+                            Tipo = 1
+                        Case "0"
+                            Tipo = 2
+                        Case "1"
+                            Tipo = 3
+                        Case "O"
+                            Tipo = 4
+                    End Select
 
                     dbC2.Open()
                     'Comparando si es la misma fecha al anterior
-                    cmdS2.CommandText = "select idchequeo from Chequeo where chec = '" & Format(CDate(CHECKTIME), "yyyy-dd-MMThh:mm:ss") & "'"
-                    'rdr2 = cmdS2.ExecuteReader
+                    cmdS2.CommandText = "IF EXISTS(SELECT idchequeo FROM Chequeo WHERE chec = '" & Format(CDate(CHECKTIME), "yyyy-MM-ddThh:mm:ss") & "' AND idempleado= '" & id & "')" &
+                    "SELECT * FROM Chequeo " &
+                    "Else " &
+                    "INSERT INTO Chequeo (idempleado,chec,tipo) VALUES ('" & id & "','" & Format(CDate(CHECKTIME), "yyyy-MM-ddThh:mm:ss") & "','" & Tipo & "')"
+                    cmdS2.ExecuteNonQuery()
                     Dim rdr2 As SqlDataReader = cmdS2.ExecuteReader
-
-                    'Ciclo de lectura de claves
-                    If rdr2.HasRows Then
-                        'Dim idchek As Integer
-                        'idchek = rdr2("idchequeo").ToString()
-                        rdr2.Close()
-
-                    Else
-                        rdr2.Close()
-
-                        Select Case CHECKTYPE
-                            'INSERTAR REGISTROS
-                            Case "I"
-                                cmdS2.CommandText = "INSERT INTO Chequeo (idempleado,chec,tipo) values('" & id & "','" & Format(CDate(CHECKTIME), "yyyy-MM-ddThh:mm:ss") & "',1)"
-                                cmdS2.ExecuteNonQuery()
-                                rdr2 = cmdS2.ExecuteReader
-
-                            Case "0"
-                                cmdS2.CommandText = "INSERT INTO Chequeo (idempleado,chec,tipo) values('" & id & "','" & Format(CDate(CHECKTIME), "yyyy-MM-ddThh:mm:ss") & "',2)"
-                                cmdS2.ExecuteNonQuery()
-                                rdr2 = cmdS2.ExecuteReader
-
-                            Case "1"
-                                cmdS2.CommandText = "INSERT INTO Chequeo (idempleado,chec,tipo) values('" & id & "','" & Format(CDate(CHECKTIME), "yyyy-MM-ddThh:mm:ss") & "',3)"
-                                cmdS2.ExecuteNonQuery()
-                                rdr2 = cmdS2.ExecuteReader
-
-                            Case "O"
-                                cmdS2.CommandText = "INSERT INTO Chequeo (idempleado,chec,tipo) values('" & id & "','" & Format(CDate(CHECKTIME), "yyyy-MM-ddThh:mm:ss") & "',4)"
-                                cmdS2.ExecuteNonQuery()
-                                rdr2 = cmdS2.ExecuteReader
-
-                        End Select
-
-                    End If
-
-
-
+                    rdr2.Close()
 
                     'Cerrar conexion
                     dbC2.Close()
