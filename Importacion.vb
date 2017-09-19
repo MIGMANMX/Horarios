@@ -134,9 +134,10 @@ Public Class Importacion
 
                     dbC2.Open()
                     'Comparando si es la misma fecha al anterior
-                    cmdS2.CommandText = "select top (1) * from View_1 where chec = '" & Format(CDate(CHECKTIME), "yyyy-dd-MMThh:mm:ss") & "'"
+                    cmdS2.CommandText = "select idchequeo from Chequeo where chec = '" & Format(CDate(CHECKTIME), "yyyy-dd-MMThh:mm:ss") & "'"
                     'rdr2 = cmdS2.ExecuteReader
                     Dim rdr2 As SqlDataReader = cmdS2.ExecuteReader
+
                     'Ciclo de lectura de claves
                     If rdr2.HasRows Then
                         'Dim idchek As Integer
