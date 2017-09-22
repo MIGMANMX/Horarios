@@ -143,6 +143,10 @@ Public Class Importacion
                             Tipo = 3
                         Case "O"
                             Tipo = 4
+                        Case "i"
+                            Tipo = 1
+                        Case "o"
+                            Tipo = 4
                     End Select
 
                     dbC2.Open()
