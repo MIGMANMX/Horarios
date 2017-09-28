@@ -151,10 +151,10 @@ Public Class Importacion
 
                     dbC2.Open()
                     'Comparando si es la misma fecha al anterior
-                    cmdS2.CommandText = "IF EXISTS(SELECT idchequeo FROM Chequeo WHERE chec = '" & Format(CDate(CHECKTIME), "yyyy-MM-ddThh:mm:ss") & "' AND idempleado= '" & id & "')" &
+                    cmdS2.CommandText = "IF EXISTS(SELECT idchequeo FROM Chequeo WHERE chec = '" & Format(CDate(CHECKTIME), "yyyy-MM-ddTHH:mm:ss") & "' AND idempleado= '" & id & "')" &
                     "SELECT * FROM Chequeo " &
                     "Else " &
-                    "INSERT INTO Chequeo (idempleado,chec,tipo) VALUES ('" & id & "','" & Format(CDate(CHECKTIME), "yyyy-MM-ddThh:mm:ss") & "','" & Tipo & "')"
+                    "INSERT INTO Chequeo (idempleado,chec,tipo) VALUES ('" & id & "','" & Format(CDate(CHECKTIME), "yyyy-MM-ddTHH:mm:ss") & "','" & Tipo & "')"
                     cmdS2.ExecuteNonQuery()
                     Dim rdr2 As SqlDataReader = cmdS2.ExecuteReader
                     rdr2.Close()
