@@ -3,7 +3,10 @@ Imports System.IO
 Imports System.Data.SqlClient
 Imports System.Data.OleDb
 Imports System.Data.SqlTypes
+
 Public Class Importacion
+    Dim idempleado As Integer
+
     Public cont As Integer
     Dim CHECKTIME As String
     Dim CHECKTYPE As String
@@ -97,12 +100,15 @@ Public Class Importacion
 
         dbC.Open()
         'Sacar las claves_att de la BD SQL
-        cmdS.CommandText = "SELECT clave_att FROM Empleados ORDER BY clave_att desc"
+        cmdS.CommandText = "SELECT idempleado, clave_att FROM Empleados ORDER BY clave_att desc"
         rdr = cmdS.ExecuteReader
         'Ciclo de lectura de claves
         While rdr.Read()
             Dim claveatt As String
             claveatt = rdr("clave_att").ToString
+
+            idempleado = rdr("idempleado").ToString
+
             If claveatt <> "" Then
                 'Conexion con BD Access
                 Dim conexion As OleDbConnection
@@ -125,7 +131,6 @@ Public Class Importacion
                 cmd.CommandText = "SELECT CHECKTIME, CHECKTYPE  FROM CHECKINOUT WHERE USERID=" & id & ""
                 Dim check As OleDbDataReader
                 check = cmd.ExecuteReader()
-
                 'Ciclo de leer los cheks segun el id
                 While check.Read()
                     'Variable de fecha
@@ -133,20 +138,20 @@ Public Class Importacion
 
                     'Variable de tipo de chequeo
                     CHECKTYPE = check("CHECKTYPE").ToString
-                    Dim Tipo As Integer
+                    Dim Tipo As String
                     Select Case CHECKTYPE
                         Case "I"
-                            Tipo = 1
+                            Tipo = "Entrada"
                         Case "0"
-                            Tipo = 2
+                            Tipo = "InDescanso"
                         Case "1"
-                            Tipo = 3
+                            Tipo = "FnDescanso"
                         Case "O"
-                            Tipo = 4
+                            Tipo = "Salida"
                         Case "i"
-                            Tipo = 1
+                            Tipo = "Entrada"
                         Case "o"
-                            Tipo = 4
+                            Tipo = "Salida"
                     End Select
 
                     dbC2.Open()
@@ -154,7 +159,7 @@ Public Class Importacion
                     cmdS2.CommandText = "IF EXISTS(SELECT idchequeo FROM Chequeo WHERE chec = '" & Format(CDate(CHECKTIME), "yyyy-MM-ddTHH:mm:ss") & "' AND idempleado= '" & id & "')" &
                     "SELECT * FROM Chequeo " &
                     "Else " &
-                    "INSERT INTO Chequeo (idempleado,chec,tipo) VALUES ('" & id & "','" & Format(CDate(CHECKTIME), "yyyy-MM-ddTHH:mm:ss") & "','" & Tipo & "')"
+                    "INSERT INTO Chequeo (idempleado,chec,tipo) VALUES ('" & idempleado & "','" & Format(CDate(CHECKTIME), "yyyy-MM-ddTHH:mm:ss") & "','" & Tipo & "')"
                     cmdS2.ExecuteNonQuery()
                     Dim rdr2 As SqlDataReader = cmdS2.ExecuteReader
                     rdr2.Close()
